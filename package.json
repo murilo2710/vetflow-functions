@@ -1,0 +1,21 @@
+{
+  "name": "vetflow-functions",
+  "version": "1.0.0",
+  "description": "VetFlow - Azure Functions (indicadores via HTTP trigger e notificações via Service Bus trigger)",
+  "type": "module",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "func start",
+    "dev": "node scripts/dev-server.js",
+    "test": "node --test \"tests/**/*.test.js\""
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "Bernardo Vieira, Murilo Regnier",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/data-tables": "^13.3.0",
+    "@azure/functions": "^4.6.0"
+  }
+}

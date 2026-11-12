@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "SERVICEBUS_CONNECTION": "Endpoint=sb://SEU-NAMESPACE.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=CHAVE",
+    "SERVICEBUS_QUEUE": "vetflow-eventos",
+    "NOTIFICATIONS_TABLE": "notificacoes"
+  },
+  "Host": { "CORS": "*" }
+}
